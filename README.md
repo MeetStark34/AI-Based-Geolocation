@@ -21,21 +21,45 @@ Welcome to the AI-Based Geolocation platform designed to track, validate, and re
 ## 🧩 Project Structure
 
 ```
-├── app.py                        # Flask API for receiving GPS data
-├── simulate_route_ors.py         # Simulates a cycling route via ORS
-├── detect_anomalies.py           # Detects anomalies in route data
-├── extract_mission_features.py   # Extracts mission stats from raw GPS
-├── train_anomaly_model.py        # Trains the anomaly detection ML model
-├── generate_report.py            # Creates PDF reports for each mission
-├── email_report_sender.py        # Sends PDF reports via email
+Egerine_Project/
+├── requirements.txt                # List of required Python packages
+├── backend/
+│   ├── app.py                      # Flask API for receiving GPS data
+│   ├── simulate_route_ors.py       # Simulates a cycling route via ORS
+│   └── tempCodeRunnerFile.py       # Temporary file for testing
 ├── data/
-│   ├── gps_data.csv              # Incoming GPS logs
-│   ├── validation_results.csv    # Anomaly detection results
+│   ├── gps_data.csv                # Incoming GPS logs
+│   ├── mission_dataset.csv         # Training dataset with labels
+│   └── validation_results.csv      # Anomaly detection results
 ├── models/
-│   └── anomaly_model.pkl         # Trained RandomForest model
-├── visuals/                      # Folium-generated route maps
-├── reports/                      # Auto-generated PDF mission reports
+│   └── anomaly_model.pkl           # Trained RandomForest model
+├── reports/
+│   └── Mission_Report_mission_road_3.pdf  # Auto-generated PDF mission report
+├── scripts/
+│   ├── detect_anomalies.py         # Detects anomalies in route data
+│   ├── generate_report.py          # Creates PDF reports for each mission
+│   └── train_anomaly_model.py      # Trains the anomaly detection ML model
+├── visuals/
+│   ├── map_screenshot_mission_road_3.png  # Screenshot of the mission route
+│   ├── offroad_map_mission_road_3.html    # Interactive map visualization
+│   └── speed_graph_mission_road_101.png   # Speed graph visualization
 ```
+
+---
+
+## 📄 Example Report and Visualization
+
+### 📄 Mission Report
+
+Below is an example of an auto-generated mission report:
+
+![Mission Report](reports/Mission_Report_mission_road_3.pdf)
+
+### 🗺️ Mission Route Screenshot
+
+Here is a screenshot of the mission route visualization:
+
+![Mission Route Screenshot](visuals/map_screenshot_mission_road_3.png)
 
 ---
 
@@ -70,11 +94,11 @@ Update the API keys and credentials in:
 Run the components in this order:
 
 ```bash
-python app.py                   # Start Flask API server
-python simulate_route_ors.py    # Simulate GPS data
-python detect_anomalies.py      # Detect mission anomalies
-python generate_report.py       # Generate PDF report
-python email_report_sender.py   # Send PDF via email
+python backend/app.py                   # Start Flask API server
+python backend/simulate_route_ors.py    # Simulate GPS data
+python scripts/detect_anomalies.py      # Detect mission anomalies
+python scripts/generate_report.py       # Generate PDF report
+python scripts/email_report_sender.py   # Send PDF via email
 ```
 
 ---
@@ -82,7 +106,7 @@ python email_report_sender.py   # Send PDF via email
 ## 🧠 Training the AI Model
 
 ```bash
-python train_anomaly_model.py
+python scripts/train_anomaly_model.py
 ```
 
 ---
@@ -119,10 +143,10 @@ PRs and feedback are welcome. Feel free to fork the repo and enhance it!
 
 ## 👥 Team Members
 
-| Name            | Email                          |
-|-----------------|--------------------------------|
-| Meet Stark      | starkmeet@gmail.com            |
-| Dhruvilsinh Rathod | dhruvilsinhrathod24@gmail.com  |
-| Harshika Singh  | harshikasingh538@gmail.com     |
-| Kabir Bhavsar   | kabirb1612@gmail.com           |
-| Krishna Butani  | krishnabutani7@gmail.com       |
+| Name              | Email                          |
+|-------------------|--------------------------------|
+| Meet Stark        | starkmeet@gmail.com            |
+| Dhruvilsinh Rathod| dhruvilsinhrathod24@gmail.com  |
+| Harshika Singh    | harshikasingh538@gmail.com     |
+| Kabir Bhavsar     | kabirb1612@gmail.com           |
+| Krishna Butani    | krishnabutani7@gmail.com       |
