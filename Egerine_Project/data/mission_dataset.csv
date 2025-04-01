@@ -1,0 +1,10 @@
+mission_id,distance_km,duration_min,area_km2,num_points,avg_speed_kmh,label
+
+mission_101,0.9,3.5,0.006,12,15.4,1
+mission_102,5.2,12.0,0.075,42,26.0,0
+mission_103,0.7,4.0,0.005,10,10.5,1
+mission_104,6.0,14.5,0.085,63,24.8,0
+mission_105,1.1,5.0,0.015,19,13.2,1
+mission_106,7.2,18.2,0.102,80,26.5,0
+mission_road_101,1.06,9.17,0.1882,6.95,56,0
+mission_road_101,1.06,9.17,0.1882,6.95,56,0

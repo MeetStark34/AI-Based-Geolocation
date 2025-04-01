@@ -1,0 +1,3 @@
+mission_id,distance_km,duration_min,area_km2,avg_speed_kmh,num_points,offroad_points,ml_pred,anomalies,status
+
+mission_road_3,1.97,16.0,0.2791,7.4,97,0,0,None,Valid
