@@ -152,5 +152,5 @@ PRs and feedback are welcome. Feel free to fork the repo and enhance it!
 | Meet Stark        | starkmeet@gmail.com            |
 | Dhruvilsinh Rathod| dhruvilsinhrathod24@gmail.com  |
 | Harshika Singh    | harshikasingh538@gmail.com     |
-| Kabir Bhavsar     | kabirb1612@gmail.com           |
 | Krishna Butani    | krishnabutani7@gmail.com       |
+| Kharv Bhavsar     | kabirb1612@gmail.com           |
