@@ -53,13 +53,17 @@ Egerine_Project/
 
 Below is an example of an auto-generated mission report:
 
-![Mission Report](reports/Mission_Report_mission_road_3.pdf)
+### 📄 Mission Report
+
+Below is an example of an auto-generated mission report:
+
+[📄 View Mission Report (Mission_Report_mission_road_3.pdf)](Egerine_Project/reports/Mission_Report_mission_road_3.pdf)
 
 ### 🗺️ Mission Route Screenshot
 
 Here is a screenshot of the mission route visualization:
 
-![Mission Route Screenshot](visuals/map_screenshot_mission_road_3.png)
+![Mission Route Screenshot](Egerine_Project/visuals/map_screenshot_mission_road_3.png)
 
 ---
 
