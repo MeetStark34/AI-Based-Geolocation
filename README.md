@@ -21,23 +21,23 @@ Welcome to the AI-Based Geolocation platform designed to track, validate, and re
 
 ```
 Egerine_Project/
-├── requirements.txt                # List of required Python packages
+├── requirements.txt                       # List of required Python packages
 ├── backend/
-│   ├── app.py                      # Flask API for receiving GPS data
-│   ├── simulate_route_ors.py       # Simulates a cycling route via ORS
-│   └── tempCodeRunnerFile.py       # Temporary file for testing
+│   ├── app.py                             # Flask API for receiving GPS data
+│   ├── simulate_route_ors.py              # Simulates a cycling route via ORS
+│   └── tempCodeRunnerFile.py              # Temporary file for testing
 ├── data/
-│   ├── gps_data.csv                # Incoming GPS logs
-│   ├── mission_dataset.csv         # Training dataset with labels
-│   └── validation_results.csv      # Anomaly detection results
+│   ├── gps_data.csv                       # Incoming GPS logs
+│   ├── mission_dataset.csv                # Training dataset with labels
+│   └── validation_results.csv             # Anomaly detection results
 ├── models/
-│   └── anomaly_model.pkl           # Trained RandomForest model
+│   └── anomaly_model.pkl                  # Trained RandomForest model
 ├── reports/
 │   └── Mission_Report_mission_road_3.pdf  # Auto-generated PDF mission report
 ├── scripts/
-│   ├── detect_anomalies.py         # Detects anomalies in route data
-│   ├── generate_report.py          # Creates PDF reports for each mission
-│   └── train_anomaly_model.py      # Trains the anomaly detection ML model
+│   ├── detect_anomalies.py                # Detects anomalies in route data
+│   ├── generate_report.py                 # Creates PDF reports for each mission
+│   └── train_anomaly_model.py             # Trains the anomaly detection ML model
 ├── visuals/
 │   ├── map_screenshot_mission_road_3.png  # Screenshot of the mission route
 │   ├── offroad_map_mission_road_3.html    # Interactive map visualization
@@ -47,10 +47,6 @@ Egerine_Project/
 ---
 
 ## 📄 Example Report and Visualization
-
-### 📄 Mission Report
-
-Below is an example of an auto-generated mission report:
 
 ### 📄 Mission Report
 
