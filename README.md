@@ -14,7 +14,6 @@ Welcome to the AI-Based Geolocation platform designed to track, validate, and re
 - 📊 **Mission Feature Extraction** (distance, duration, speed, area, etc.)  
 - 🗺️ **Map Visualization** with off-road analysis using Folium  
 - 📄 **Automated PDF Reports** with detailed mission summaries  
-- 📧 **Email Delivery System** for sending mission reports  
 
 ---
 
