@@ -2,8 +2,6 @@
 
 Welcome to the AI-Based Geolocation platform designed to track, validate, and report GPS-based missions using real-time data, machine learning, and automated analytics. This end-to-end system helps verify missions, detect anomalies, and generate professional reports for transparent and sustainable tracking.
 
-[Live Repository](https://github.com/MeetStark34/AI-Based-Geolocation)
-
 ---
 
 ## 🚀 Features
