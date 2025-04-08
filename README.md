@@ -146,4 +146,3 @@ PRs and feedback are welcome. Feel free to fork the repo and enhance it!
 | Dhruvilsinh Rathod| dhruvilsinhrathod24@gmail.com  |
 | Harshika Singh    | harshikasingh538@gmail.com     |
 | Krishna Butani    | krishnabutani7@gmail.com       |
-| Kharv Bhavsar     | kabirb1612@gmail.com           |
